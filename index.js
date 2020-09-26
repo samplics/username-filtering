@@ -1,4 +1,4 @@
-//function to clean urls, domain names, and swear words from a string
+//function to clean urls and domain names from a string
 const filterUsername = function(string){
   //remove weird characters from string
   string = string.replace(/[^\x20-\x7E]/g, '');
